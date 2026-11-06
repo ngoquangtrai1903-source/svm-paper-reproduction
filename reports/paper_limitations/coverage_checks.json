@@ -1,0 +1,19 @@
+{
+  "expected": {
+    "basic_metrics.csv": 45,
+    "split_sensitivity.csv": 60,
+    "gamma_ablation.csv": 20,
+    "kernel_ablation.csv": 10,
+    "selection_bias_diagnostic.csv": 40,
+    "decision_shape.csv": 4
+  },
+  "actual": {
+    "basic_metrics.csv": 45,
+    "split_sensitivity.csv": 60,
+    "gamma_ablation.csv": 20,
+    "kernel_ablation.csv": 10,
+    "selection_bias_diagnostic.csv": 40,
+    "decision_shape.csv": 4
+  },
+  "passed": true
+}

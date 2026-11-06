@@ -1,0 +1,38 @@
+{
+  "python": "3.12.0",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.4.2",
+    "optuna": "4.0.0",
+    "hyperopt": "0.2.7",
+    "xgboost": "2.1.2",
+    "lightgbm": "4.5.0",
+    "scipy": "1.13.1",
+    "statsmodels": "0.14.4"
+  },
+  "data_sha256": "34c8aafe5e593b71af8d9eef59441dda3fc04c28f9db16318902869933f96e34",
+  "data_summary": {
+    "n_samples": 2000,
+    "n_features": 20,
+    "missing_values": 0,
+    "duplicate_rows_after_features_target": 0,
+    "class_counts": {
+      "0": 500,
+      "1": 500,
+      "2": 500,
+      "3": 500
+    },
+    "feature_types": {
+      "int64": 18,
+      "float64": 2
+    }
+  },
+  "arguments": {
+    "stage": "hpo",
+    "protocol": "robust",
+    "trials": 100,
+    "fold": null,
+    "output": "E:\\svm-paper-reproduction\\reports\\member7\\data"
+  }
+}

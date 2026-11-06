@@ -1,0 +1,8 @@
+test_data_provenance (__main__.ArtifactChecks.test_data_provenance) ... ok
+test_hpo_integrity (__main__.ArtifactChecks.test_hpo_integrity) ... ok
+test_pca_full_rotation_preserves_predictions (__main__.ArtifactChecks.test_pca_full_rotation_preserves_predictions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.259s
+
+OK

@@ -1,0 +1,5 @@
+kernel,different_predictions,n_test,support_equal
+linear,0,400,True
+poly,0,400,True
+rbf,0,400,True
+sigmoid,0,400,True

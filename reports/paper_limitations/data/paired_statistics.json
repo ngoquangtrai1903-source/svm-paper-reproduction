@@ -1,0 +1,74 @@
+[
+  {
+    "protocol": "paper",
+    "bowker_statistic": 1.0,
+    "bowker_df_nominal": 6,
+    "bowker_p_nominal": 0.9856123220330293,
+    "nonzero_pairs": 3,
+    "hyperopt_only_correct": 3,
+    "optuna_only_correct": 4,
+    "mcnemar_exact_p": 1.0,
+    "table": [
+      [
+        504,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        492,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        499,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        498
+      ]
+    ]
+  },
+  {
+    "protocol": "robust",
+    "bowker_statistic": 3.2,
+    "bowker_df_nominal": 6,
+    "bowker_p_nominal": 0.783358489819263,
+    "nonzero_pairs": 3,
+    "hyperopt_only_correct": 4,
+    "optuna_only_correct": 6,
+    "mcnemar_exact_p": 0.75390625,
+    "table": [
+      [
+        503,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        485,
+        3,
+        0
+      ],
+      [
+        0,
+        2,
+        501,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        501
+      ]
+    ]
+  }
+]

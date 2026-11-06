@@ -1,0 +1,15 @@
+          model accuracy_mean_pct accuracy_std_pp macro_f1_pct paper_pct delta_pp total_seconds
+   lgbm_default            90.500           1.723       90.501    90.700   -0.200         1.564
+       pca_0.95            87.450           2.341       87.513         —        —         0.931
+         pca_10            47.550           4.009       47.174         —        —         1.075
+         pca_15            82.350           5.273       82.422         —        —         1.011
+         pca_20            87.700           2.161       87.767         —        —         1.072
+          pca_5            33.450           4.159       32.206         —        —         1.269
+        svm_raw            95.150           1.318       95.124    94.950    0.200         0.321
+     svm_scaled            87.700           2.161       87.767         —        —         0.856
+    xgb_default            91.300           1.430       91.291    91.150    0.150         3.136
+ paper_hyperopt            97.650           0.652       97.651    97.400    0.250       851.448
+   paper_optuna            97.700           0.694       97.701    97.800   -0.100       654.312
+robust_hyperopt            97.050           0.694       97.046         —        —        77.551
+  robust_optuna            97.150           0.675       97.147         —        —       100.657
+REPORT COMPLETE: all checkpoint integrity checks passed
